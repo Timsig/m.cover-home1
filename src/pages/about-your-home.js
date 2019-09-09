@@ -88,8 +88,8 @@ const IndexPage = () => (
         />
         <Qprepop
           id="repair"
-            textbefore="is"
-            options={["in a good state of repair", "derelict", "undergoing structural work"]}
+          textbefore="is"
+          options={["in a good state of repair", "derelict", "undergoing structural work"]}
         />
         <Qprepop
           id="listed"
@@ -124,7 +124,7 @@ const IndexPage = () => (
         <Qprepop
           id="unoccupied"
           textbefore="is"
-            options={["occupied most of the time", "empty for more than 60 days in a row", "occupied weekdays or weekends only"]}
+          options={["occupied most of the time", "empty for more than 60 days in a row", "occupied weekdays or weekends only"]}
         />
       </section>   
     

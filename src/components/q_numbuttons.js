@@ -5,9 +5,9 @@ const Qnumbuttons = ({ id, question, options }) => (
     <p className="question">{question}</p>
     {options.map(option => {
       return (
-        <div key={option}>
-          <input type="radio" id={option} name={id} value={option} />
-          <label htmlFor={option}>{option}</label>
+        <div key={id + option}>
+          <input type="radio" id={id + option} name={id} value={option} />
+          <label htmlFor={id + option}>{option}</label>
         </div>
       )
     })}
