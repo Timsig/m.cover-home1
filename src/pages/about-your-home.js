@@ -68,51 +68,63 @@ const IndexPage = () => (
         <h4>This property:</h4>
         <Qprepop
           id="main"
-          options={["is your main home", "is a holiday home"]}   
+          textbefore="is"
+          options={["your main home", "second/holiday home", "let to tenants", "B&B"]}   
         />
         <Qprepop
           id="owned"
+          textbefore="is"
           options={["owned with a mortgage", "owned outright", "shared ownership", "rented"]}
         />
         <Qprepop
           id="occupation"
-          options={["is occupied solely by you and your family", "2", "3", "4"]}
+          textbefore="is occupied by you and your family"
+          options={["only", "and lodgers", "and paying guests", "and housemates", "and B&B guests"]}
         />
         <Qprepop
           id="business purposes"
-            options={["is not used for business purposes", "2", "3", "4"]}
+          textbefore="is"
+          options={["not used for business purposes", "used for childminding", "used for other business use", "used for office use without visitors"]}
         />
         <Qprepop
           id="repair"
-            options={["is in a good state of repair", "2", "3", "4"]}
+            textbefore="is"
+            options={["in a good state of repair", "derelict", "undergoing structural work"]}
         />
         <Qprepop
           id="listed"
-            options={["is not a listed building", "2", "3", "4"]}
+          textbefore="is"
+          options={["not a listed building", "Grade 1 listed", "Grade 2 listed", "Grade 2* listed", "under a preservation order"]}
         />
         <Qprepop
           id="walls"
-            options={["has brick walls", "2", "3", "4"]}
+          textbefore="has walls made of"
+          options={["brick", "stone", "concrete", "timber framed with brick", "other"]}
         />
         <Qprepop
           id="roof"
-            options={["has a tile roof", "2", "3", "4"]}
+          textbefore="has a roof made of"
+          options={["tile", "slate", "concrete", "metal", "asphalt", "fibreglass", "glass", "other"]}
         />
         <Qprepop
           id="flat-roof"
-            options={["doesn't have a flat roof", "2", "3", "4"]}
+            options={["none", "About 10%", "About 20%", "About 30%", "About 40%", "About 50%", "More than 50%" ]}
+            textafter="of the roof is flat"
         />
         <Qprepop
           id="landslip"
-            options={["has never shown signs of landslip or heave", "2", "3", "4"]}
+            options={["has never", "has"]}
+            textafter="shown signs of landslip or heave"
         />
         <Qprepop
           id="flooding"
-            options={["has never suffered from flooding and is not located in an area that is currently under a flood warning", "2", "3", "4"]}
+            options={["has never", "has"]}
+            textafter="suffered from flooding and/or is it located in an area that is currently under a flood warning?"
         />
         <Qprepop
           id="unoccupied"
-            options={["is never unoccupied for more than 60 consecutive days", "2", "3", "4"]}
+          textbefore="is"
+            options={["occupied most of the time", "empty for more than 60 days in a row", "occupied weekdays or weekends only"]}
         />
       </section>   
     
