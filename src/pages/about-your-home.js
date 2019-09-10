@@ -41,7 +41,7 @@ const IndexPage = () => (
       <Qselect
         id="property-built"
         question="When was the property built?"
-        options={["1968", "2012"]}
+        options={["Pre 1837", "1836 - 1919", "1920 - 1945", "1946 - 1979", "1980 - 1989", "1990 - 1999", "2000 - 2008", "2009 - present"]}
       />
       <Qnumbuttons
         id="years-at-property"
