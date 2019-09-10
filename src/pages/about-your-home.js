@@ -131,10 +131,10 @@ const IndexPage = () => (
 
     <Footer>
       <div className="navrow">
-        <Navbutton type="primary" to="/more-about-you" cta="Next >" />
+        <Navbutton type="primary" to="/more-about-you" cta="Please click the green success button below" />
       </div>
       <div className="saverow">
-        <Navbutton type="secondary" cta="Save" to="/more-about-you" />
+        
       </div>
     </Footer>
    </div >
